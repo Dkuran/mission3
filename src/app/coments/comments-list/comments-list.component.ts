@@ -7,7 +7,7 @@ import { ResourceService } from '../../shared/resource.service';
 	styleUrls: [ './comments-list.component.scss' ]
 })
 export class CommentsListComponent implements OnInit {
-	private url = 'http://jsonplaceholder.typicode.com/comments';
+	private url = 'https://jsonplaceholder.typicode.com/comments';
 	public dataComents: any[];
 
 	constructor(private _resourceService: ResourceService) {}

@@ -7,7 +7,7 @@ import { ResourceService } from '../../shared/resource.service';
 	styleUrls: [ './post-list.component.scss' ]
 })
 export class PostListComponent implements OnInit {
-	private url = 'http://jsonplaceholder.typicode.com/posts';
+	private url = 'https://jsonplaceholder.typicode.com/posts';
 	public dataPosts: any[];
 	constructor(private _resourceService: ResourceService) {}
 
